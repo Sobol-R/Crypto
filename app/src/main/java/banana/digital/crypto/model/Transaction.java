@@ -1,4 +1,4 @@
-package banana.digital.crypto;
+package banana.digital.crypto.model;
 
 import com.google.gson.annotations.Expose;
 

@@ -1,13 +1,14 @@
-package banana.digital.crypto;
+package banana.digital.crypto.model;
 
 import com.google.gson.annotations.Expose;
 
-public class TxListResult {
+public class BalanceResult {
 
     @Expose
     public String status;
     @Expose
     public String message;
     @Expose
-    public Transaction transaction;
+    public String result;
+
 }
