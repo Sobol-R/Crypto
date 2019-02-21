@@ -13,13 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
+        <Button
+            android:layout_gravity="center"
             android:id="@+id/send"
-            android:layout_margin="10dp"
-            android:textSize="18sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Send" />
+            android:text="send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </android.support.v7.widget.CardView>
 

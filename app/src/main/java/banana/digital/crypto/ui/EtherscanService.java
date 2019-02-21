@@ -15,4 +15,6 @@ public interface EtherscanService {
 
     @GET("api?module=account&action=txlist&startblock=0&endblock=99999999&sort=asc&apikey=" + API_KEY)
     Call<TxListResult> getTransaction(@Query("address") String address);
+
+    @GET("api?module=proxy&action=eth_sendRawTransaction&apikey=" + API_KEY)
 }
